@@ -1,0 +1,14 @@
+{
+  "employees": [
+    {
+      "firstName": "MachineX",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "firstName": "MachineY",
+      "gender": "female",
+      "id": 3
+    }
+  ]
+}
