@@ -11,6 +11,7 @@ enum GenderEnum {
   other = "other",
 }
 
+
 export const employeeApi = api.injectEndpoints({
   endpoints: (build) => ({
     addEmployee: build.mutation<Employee, Partial<Employee>>({
@@ -24,7 +25,7 @@ export const employeeApi = api.injectEndpoints({
 
       invalidatesTags: [{ type: "Employees", id: "LIST" }],
     }),
-    getEmployeeAll: build.query({
+    getEmployeeAll: build.query<any, void>({
       query: () => ({ url: "employees" }),
       providesTags: (result) =>
         // is result available?
