@@ -3,7 +3,7 @@ import { RootState } from '../store'
 
 // Create our baseQuery instance
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://json-server-412t.vercel.app',
 })
 
 const baseQueryWithRetry = retry(baseQuery, { maxRetries: 6 })
