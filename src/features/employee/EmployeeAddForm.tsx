@@ -3,7 +3,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { Employee, useAddEmployeeMutation } from "../../app/services/employee";
 
 interface Props {
-  employee: Employee;
+
   closeModal: any;
 }
 

@@ -13,7 +13,7 @@ interface Props {
 }
 
 
-const EmployeeListItem: React.FC<Props>  = ({ data }) => {
+export const EmployeeListItem: React.FC<Props>  = ({ data }) => {
   const [deletePost, response] = useDeleteEmployeesMutation();
   const [isShowingModal, toggleModal] = useModal(false);
 
@@ -79,4 +79,4 @@ export const EmployeeList = () => {
   );
 };
 
-export default EmployeeList;
+

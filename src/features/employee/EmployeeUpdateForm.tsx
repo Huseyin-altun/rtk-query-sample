@@ -7,7 +7,7 @@ import {
 
 interface Props {
   employee: Employee;
-  closeModal: any;
+  closeModal?: any;
 }
 
 export const EmployeeUpdateForm: React.FC<Props> = ({

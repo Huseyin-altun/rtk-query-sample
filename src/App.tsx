@@ -1,7 +1,8 @@
 import "./App.css";
 import { Modal, ModalHeader } from "./components/Modal";
 import { EmployeeAddForm } from "./features/employee/EmployeeAddForm";
-import { EmployeeList } from "./features/employee/employeeList";
+import { EmployeeList } from "./features/employee/EmployeeList";
+
 import { Navbar } from "./layouts/navbar/Navbar";
 import useModal from "./utils/hooks/useModal";
 
