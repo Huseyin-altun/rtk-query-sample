@@ -3,7 +3,7 @@ import { RootState } from '../store'
 
 // Create our baseQuery instance
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'https://my-json-server.typicode.com/Huseyin-altun/json-server',
+  baseUrl: 'http://localhost:3000',
 })
 
 const baseQueryWithRetry = retry(baseQuery, { maxRetries: 6 })
